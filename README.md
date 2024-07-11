@@ -1,4 +1,5 @@
 ![DeliverEase](https://github.com/feiryrej/DeliverEase/assets/116869096/c7c30f8a-ea0f-46b3-9743-b47214f390eb)
+![image](https://github.com/AkzechKyla/DeliverEase/assets/117506093/721063d0-24b1-40d1-937e-749e27aad74f)
 
 # DeliverEase: A Prototype Delivery Routing System using A* Search Algorithm
 
@@ -9,10 +10,19 @@ DeliverEase is an innovative prototype routing system designed to streamline rou
 ### Root Directory
 - `DeliverEase` - Contains the main files for the DeliverEase prototype.
   - `data` - Folder containing data files.
+    - `intersection.js` - Contains road intersection nodes data retrieved from the Overpass API.
+    - `orders.js` - Manages order information including order IDs, addresses, and coordinates.
   - `scripts` - Folder containing JavaScript files.
+    - `astar.js` - Implements A* search algorithm.
+    - `deliveries.` - Defines the Deliveries class for managing delivery orders and their statuses.
+    - `intersections.js` - Manages road intersections and their connections.
+    - `main.js` - The main entry point of the application.
+    - `map.js` - Handles the map display.
+    - `route.js` - Contains logic for calculating and displaying the delivery routes on the map.
   - `index.html` - Main HTML file for the DeliverEase prototype.
   - `logo.svg` - Logo for the project.
   - `style.css` - Main CSS file for styling the DeliverEase prototype.
+
 
 - `DeliverEase3D` - Contains the 3D version of the project.
   - `node_modules` - Contains npm dependencies for the project.
@@ -45,7 +55,7 @@ DeliverEase is an innovative prototype routing system designed to streamline rou
 - Have **Node.js** installed in your system
 ## Setup
 ```bash
-npm install http-server -g
+npm install
 ```
 ## Run
 ```bash
