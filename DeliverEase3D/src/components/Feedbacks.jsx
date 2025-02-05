@@ -24,8 +24,11 @@ const Feedbacks = () => {
             Our application is designed to streamline your delivery process.
           </motion.p>
           <div className="mt-4 flex justify-center items-center"> {/* Adjusted alignment for the button */}
-            <Link to="http://127.0.0.1:8080">
+            <Link to="home.html">
               <motion.button
+                onClick={() => {
+                  window.location.href = "home.html";
+                }}
                 variants={textVariant()}
                 className="px-8 py-3 bg-blue-500 text-white rounded-lg text-xl font-bold hover:bg-blue-600 transition duration-300 ease-in-out"
               >

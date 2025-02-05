@@ -2,11 +2,14 @@
   "name": "deliverease",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://akzechkyla.github.io/DeliverEase",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev:3D": "cd DeliverEase3D && npm run dev",
     "dev:Map": "cd DeliverEase && http-server -c-1",
-    "dev": "concurrently \"npm run dev:3D\" \" npm run dev:Map\""
+    "dev": "concurrently \"npm run dev:3D\" \" npm run dev:Map\"",
+    "gh-pages": "gh-pages -d dist",
+    "deploy": "python deploy.py"
   },
   "keywords": [],
   "author": "",
