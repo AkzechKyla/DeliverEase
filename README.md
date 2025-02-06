@@ -41,7 +41,7 @@ DeliverEase is a prototype routing system designed to streamline route planning 
 ![image](https://github.com/user-attachments/assets/adbd1b46-e719-45ec-bc7b-b20972c0ae28)
 3. You'll be redirected to a map with a default starting location. You can keep it or enter a different location in the search bar. Note: The system works effectively within Manila and Quezon City; results may be inaccurate outside this area.
   ![image](https://github.com/user-attachments/assets/8bdf6f5d-33ce-4bb0-a523-3ca1e8a58264)
-4. The app uses mock delivery data with hardcoded paths. Copy and paste any of the following order IDs into the app:
+4. The app uses mock delivery data. Copy and paste any of the following order IDs into the app:
 ```
 Order ID
 
